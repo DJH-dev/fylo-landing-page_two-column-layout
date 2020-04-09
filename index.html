@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
@@ -17,9 +17,9 @@
 <body>
  
   <header class="wrapper">
-    <img src="images/logo.svg" alt="company logo">
+    <img class="header-logo" src="images/logo.svg" alt="company logo">
    <nav>
-      <ul>
+      <ul class="header-nav">
         <li>Features</li>
         <li>Team</li>
         <li>Sign In</li>
@@ -27,23 +27,25 @@
     </nav>
   </header>
 
-  <img src="images/illustration-1.svg" alt="people filing folders">
 
-  <section class="wrapper">
+  <section class="wrapper hero-sec1">
+
+    <img class="illustration" src="images/illustration-1.svg" alt="people filing folders">
+
     <h1>All your files in one secure location, accessible anywhere.</h1>
     <p>
       Fylo stores your most important files in one secure location. 
       Access them wherever you need, share and collaborate with friends, 
       family, and co-workers.
     </p>
-    <form>
+    <form class="header-form">
       <label for="email"></label>
       <input type="email" name="email" id="email" placeholder="Enter your email...">
       <input type="button" value="Get Started">
     </form>
   </section>
 
-  <img src="images/illustration-2.svg" alt="people white boarding">
+  <img class="illustration" src="images/illustration-2.svg" alt="people white boarding">
 
   <section class="wrapper">
     <h1>  Stay productive, wherever you are</h1>
