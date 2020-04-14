@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+:root {
+    --accent-font: 'Raleway', sans-serif;
+    --button-color: hsl(224, 93%, 58%);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    padding: 1.5em;
+}
+.header-logo {
+    width: 5.5em;
+}
+h1 {
+    font-family: var(--accent-font);
+}
+ul {
+    font-family: var(--accent-font);
+    font-weight: 400;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:hsl(0, 0%, 75%);
+    font-size: .9 basem;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: hsl(0, 0%, 75%);
+    font-size: .9em;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: hsl(0, 0%, 75%);
+    font-size: .9em;
+}
+.illustration{
+    width: 100%; /* set illustrations to width of mobile screen */
+}
+/****** end of Global styles *****/
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: inline-block;
+}
+.header-nav {
+    display: flex;
+    font-size: .7em;
+}
+.header-nav li {
+    margin-right: 3.2em;
+}
+.header-nav li:last-child {
+    margin-right: 0;
+}
+/****** end of Header styles *****/
+
+.hero-sec1 {
+    margin-top: 3em;
+}
+.hero-sec1 h1 {
+    color: hsl(243, 87%, 12%);
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin-top: 1.5em;
+    text-align: center;
+}
+.hero-sec1 p {
+    color: hsl(243, 87%, 12%);
+    font-size: .9em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    padding: 0 10px;
+    text-align: center;
+} 
+.header-form{
+    margin-top: 2em;
+}
+.header-form input {
+    border-radius: 3px;
+    border-style: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+.header-form input[type=email] {
+    border: 1px solid hsl(238, 22%, 44%);
+    margin-bottom: 1.3em;
+    padding: .8em 0 .8em 1.5em;
+    width: 84%;
+}
+.header-form input[type=button] {
+    color: white;
+    background-color: var(--button-color);
+    font-size: .9em;
+    padding: .8em 0;
+    width: 90%;
+}
+/****** end of hero-sec1 styles *****/
+
+.round-top {
+    margin-top: 4.5em;
+    width: 100%;
+}
+.hero-sec2 {
+    background-color:#F8F8FE;
+    margin-top: -6px;
+    padding-top: 36px;
+}
+.hero-sec2 h1 {
+    color: hsl(243, 87%, 12%);
+
+    font-size: 1em;
+    margin: 4.7em 0 1.5em;
+    text-align: center;
+}
+.hero-sec2 p {
+    color:  hsl(238, 22%, 65%);
+    font-size: .87em;
+    line-height: 1.5em;
+}
+.attention-statement {
+    align-items: center;
+    border-bottom: 1px solid;
+    display: flex;
+    margin: 2em auto 0;
+    padding-bottom: 4px;
+    width: 132px;
+}
+.attention-statement span {
+    color: hsl(170, 45%, 55%);
+    font-family: var(--accent-font);
+    font-size: .74em;
+}
+.arrow-img {
+    padding-left:7px;
+}
+.testimonial-card img {
+    width: .75em;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 5px;
+    height: 9.4em;
+    padding: 1em 1.5em;
+    margin: 3em auto 3.5em;
+    width: 16.5em;
+    -webkit-box-shadow: 0px 0px 16px -11px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 16px -11px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 16px -11px rgba(0,0,0,0.7);  
+}
+.hero-sec2 .testimonial-statement {
+    color: hsl(243, 87%, 12%);
+    font-size: .74em;
+    line-height: 1.7em;
+    margin: 0 0 17px 0;
+}
+
+.avatar-img {
+    background-image: url(images/avatar-testimonial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    float: left;
+    margin-right: 9px;
+    width: 27px;
+    height: 27px;
+}
+.hero-sec2 .avatar-name{
+    color:  hsl(243, 87%, 0%);
+    font-family: var(--accent-font);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 12px;
+    margin: 0 0 1px 0;
+    padding-top: 2px;
+}
+.hero-sec2 .avatar-title {
+    font-size: 8px;
+    margin: 0;
+}
+/****** end of hero-sec2 styles *****/
+
+.sec3 {
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(0, 0%, 95%);
+    text-align: center;
+}
+
+.sec3 h2 {
+    font-family: var(--accent-font);
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: .9px;
+    margin: 0;
+    padding-top: 1.7em;
+}
+
+.sec3 p {
+    font-size: .9em;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.7em;
+    margin: 1.2em auto;
+    width: 20em;
+}
+.sec3-form {
+    margin: 1.5em 0 2.6em;
+    padding-bottom: .7em;
+}
+.sec3 input {
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+.sec3 input[type=email] {
+    border-style: none;
+    margin-bottom: .7em;
+    padding: .8em 0 .8em 1em;
+    width: 79%;
+}
+.sec3 input[type=button] {
+    border-style: none;
+    color: hsl(0, 0%, 95%);
+    background-color: var(--button-color);
+    font-size: .68em;
+    padding: 1em 0;
+    width: 82%;
+}
+/****** end of sec3 styles *****/
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color:  hsl(0, 0%, 75%);
+    font-size: 1.1em;
+    position: relative;
+}
+.footer-img {
+    fill:  hsl(0, 0%, 75%); 
+}
+footer ul {
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-contact {
+    margin: 0 0 40px 52px;
+}
+.footer-contact li {
+    padding-left: .5em;
+}
+.footer-contact li:nth-of-type(1){
+    list-style-image: url('images/icon-phone.svg');
+    margin-bottom: .7em;
+}
+
+.footer-contact li:nth-of-type(2){
+    list-style-image: url('images/icon-email.svg');
+}
+
+.page-links, 
+.business-policy {
+    margin: 0 0 40px 22px;
+}
+
+.page-links li, 
+.business-policy li {
+    margin-bottom: 1em;
+}
+
+.page-links li:last-child, 
+.business-policy li:last-child{
+    margin-bottom: 0;
+}
+
+.social-media {
+    display: flex;
+}
+.smedia-icons {
+    color: white;
+}
+.footer-logo {
+    margin: 2em 0;
+    padding-left: 22px;
+}
+
+.footer-logo svg {
+    fill: hsl(243, 87%, 12%);
+    width: 11em;
+}
+
+.smedia-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-bottom: 42px;
+    width: 146px;
+   
+}
+
+.smedia-links svg {
+    fill: hsl(0, 0%, 90%);
+    width: 31px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
