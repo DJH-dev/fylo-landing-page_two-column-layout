@@ -30,32 +30,42 @@
 
 
   <section class="wrapper hero-sec1">
-    <img class="illustration" src="images/illustration-1.svg" alt="people filing folders">
-    <h1>All your files in one secure location, accessible anywhere.</h1>
-    <p>
-      Fylo stores your most important files in one secure location. 
-      Access them wherever you need, share and collaborate with friends, 
-      family, and co-workers.
-    </p>
-    <form class="header-form">
-      <label for="email"></label>
-      <input type="email" name="email" id="email" placeholder="Enter your email...">
-      <input type="button" value="Get Started">
-    </form>
+    <div class="col-rightT">
+      <img class="illustration" src="images/illustration-1.svg" alt="people filing folders">
+    </div>
+    <div class="col-leftT">
+      <h1>All your files in one secure location, accessible anywhere.</h1>
+      <p>
+        Fylo stores your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family, and co-workers.
+      </p>
+      <form class="header-form">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Enter your email...">
+        <input type="button" value="Get Started">
+      </form>
+    </div>
   </section>
 
   <div>
-    <img class="round-top" src="images/bg-curve-mobile.svg" alt="background-image">
+    <picture>
+      <source media="(min-width: 667px)" srcset="images/bg-curve-desktop.svg">
+      <img class="round-top" src="images/bg-curve-mobile.svg" alt="background-image">
+    </picture>
   </div>
 
   <section class="wrapper hero-sec2">
-    <img class="illustration" src="images/illustration-2.svg" alt="people white boarding">
-    <h1>  Stay productive, wherever you are</h1>
-    <p>
+    <div class="col-rightM">
+      <img class="illustration" src="images/illustration-2.svg" alt="people white boarding">
+    </div>
+    <div class="col-leftM">
+      <h1>  Stay productive, wherever you are</h1>
+    <p class="landscape-p">
       Never let location be an issue when accessing your files. Fylo has you 
       covered for all of your file storage needs.
     </p>
-    <p>
+    <p class="landscape-p">
       Securely share files and folders with friends, family and colleagues for 
       live collaboration. No email attachments required!
     </p>
@@ -73,19 +83,25 @@
       <p class="avatar-name">Kyle Burton</p>
       <p class="avatar-title"> Founder & CEO, Huddle</p>
     </div>
+    </div>
   </section>
 
   <section class="wrapper sec3">
-    <h2>Get early access today</h2>
+    <div>
+      <h2>Get early access today</h2>
     <p>
       It only takes a minute to sign up and our free starter tier is extremely generous. 
       If you have any questions, our support team would be happy to help you.
     </p>
-    <form class="sec3-form">
-      <label for="email"></label>
-      <input type="email" name="email" id="email" placeholder="email@example.com">
-      <input type="button" value="Get Started For Free">
-    </form>
+    </div>
+    <div>
+      <form class="sec3-form">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="email@example.com">
+        <input type="button" value="Get Started For Free">
+      </form>
+    </div>
+    
   </section>
 
   <footer class="wrapper">
