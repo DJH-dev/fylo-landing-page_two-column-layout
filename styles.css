@@ -262,18 +262,18 @@ footer ul {
     font-family: 'Open Sans', sans-serif;
 }
 .footer-contact {
-    margin: 0 0 40px 52px;
+    margin: 0 0 40px 14px;
 }
 .footer-contact li {
     padding-left: .5em;
 }
+
 .footer-contact li:nth-of-type(1){
-    list-style-image: url('images/icon-phone.svg');
-    margin-bottom: .7em;
+    margin-bottom: 1em;
 }
 
-.footer-contact li:nth-of-type(2){
-    list-style-image: url('images/icon-email.svg');
+.footer-contact li span {
+    margin-right: 1em;
 }
 
 .page-links, 
@@ -484,5 +484,90 @@ footer ul {
     }
 /****** end of middle grid styles *****/
 
+    .colL-sec3 h2, p {
+        text-align: left;
+    }
+    
+    .sec3 h2 {
+        font-size: 1.1em;
+    }
+
+    .sec3 p {
+        font-size: .5em;
+        margin-left: 0;
+        width: 35em;
+    }
+
+    .sec3-form {
+        margin-top: 1.8em;
+    }
+
+    .sec3 input {
+        margin: 0;
+    }
+
+    .sec3 input[type=email]{
+        margin-left: 1em;
+        padding: .6em 0 .8em 1em;
+    }
+
+    .sec3 input[type=button] {
+        font-size: .6em;
+        margin-left: 1.2em;
+        padding: .6em 0 .9em;
+        width: 44%;
+    }
+
+    .footer {
+        display: grid;
+        font-size: .63em;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-bottom: 3em;
+    }
+
+    .footer-logo {
+        margin: 0 0 1em;
+        padding-left: 8px;
+        width: 9em;
+    }
+
+    .footer-logo svg {  width: 100%; }
+
+    .footer-contact { margin: 0 0 40px 8px; }
+
+    .footer-contact li span {
+        display: inline-block;
+        width: 11px;
+    }
+
+    .span-img {
+        width: 100%;
+    }
+
+    .page-links, 
+    .business-policy {
+        margin: 38px auto 40px;
+    }
+
+    .smedia-links {
+        display: inline-block;
+        margin-top: 38px;
+        width: 9em;
+    }
+
+    .smedia-links svg { 
+        margin-top: -18px;
+        width: 20px; 
+    }
+
+    .smedia-links svg:nth-of-type(2){
+        margin:0 10px;
+    }
+
+    .attribution {
+        margin: 0 auto;
+        display: inline-block;
+        width: 100%;
+    }
 
 }
