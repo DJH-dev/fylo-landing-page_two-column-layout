@@ -244,7 +244,7 @@ nav {
     color: hsl(0, 0%, 95%);
     background-color: var(--button-color);
     font-size: .68em;
-    padding: 1em 0;
+    padding: .7em 0 1em;
     width: 82%;
 }
 /****** end of sec3 styles *****/
@@ -304,7 +304,7 @@ footer ul {
 
 .footer-logo svg {
     fill: hsl(243, 87%, 12%);
-    width: 11em;
+    width: 10em;
 }
 
 .smedia-links {
@@ -318,7 +318,7 @@ footer ul {
 
 .smedia-links svg {
     fill: hsl(0, 0%, 90%);
-    width: 31px;
+    width: 27px;
 }
 
 .attribution {
@@ -327,6 +327,54 @@ footer ul {
     left: 0;
 }
 /****** end of footer styles *****/
+
+@media (min-width: 450px) {
+    .header-logo {
+        width: 6.5em;
+    }
+    .header-nav {
+        font-size: .9em;
+    }
+    .header-nav li {
+        margin-right: 2.5em;
+    }
+/****** end of header styles *****/
+
+    .col-rightT {
+        max-width: 402px;
+        margin: 0 auto;
+    }
+    .col-leftT {
+        max-width: 403px;
+        margin: 0 auto;
+    }
+    .header-form input[type=button] {
+        width: 89%;
+    }
+    .col-rightM {
+        max-width: 402px;
+        margin: 0 auto;
+    }
+    .col-leftM {
+        max-width: 384px;
+        margin: 0 auto;
+    }
+    .hero-sec2 h1 {
+        font-size: 1.4em;
+    }
+    .col-sec3 {
+        max-width: 402px;
+        margin: 0 auto;
+    }
+    .colR-sec3 {
+        max-width: 402px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
 
 @media (min-width: 667px) {
     .wrapper {
@@ -523,6 +571,7 @@ footer ul {
         font-size: .63em;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding-bottom: 3em;
+        padding-top: 5em;
     }
 
     .footer-logo {
