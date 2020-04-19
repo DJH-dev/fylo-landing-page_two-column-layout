@@ -177,7 +177,7 @@ nav {
     background-image: url(images/avatar-testimonial.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 13px;
+    border-radius: 20px;
     float: left;
     margin-right: 9px;
     width: 27px;
@@ -351,6 +351,8 @@ footer ul {
     .header-form input[type=button] {
         width: 89%;
     }
+    /****** end of hero-sec1 styles *****/
+
     .col-rightM {
         max-width: 402px;
         margin: 0 auto;
@@ -362,6 +364,8 @@ footer ul {
     .hero-sec2 h1 {
         font-size: 1.4em;
     }
+    /****** end of hero-sec2 styles *****/
+
     .col-sec3 {
         max-width: 402px;
         margin: 0 auto;
@@ -370,8 +374,6 @@ footer ul {
         max-width: 402px;
         margin: 0 auto;
     }
-
-
 }
 
 
@@ -454,13 +456,16 @@ footer ul {
 /****** end of top grid styles *****/
 
     .col-rightM { 
-        align-self: center; 
+        align-self: start;        
         grid-area: col-rightM; 
+        margin-top: 10px;
+        max-width: 295px;
     }
 
     .col-leftM { 
         align-self: start;
         grid-area: col-leftM; 
+        margin: 0;
     }
 
     .round-top {
@@ -545,6 +550,9 @@ footer ul {
         margin-left: 0;
         width: 35em;
     }
+    .colR-sec3 {
+        margin: 0;
+    }
 
     .sec3-form {
         margin-top: 1.8em;
@@ -561,7 +569,7 @@ footer ul {
 
     .sec3 input[type=button] {
         font-size: .6em;
-        margin-left: 1.2em;
+        margin-left: 1em;
         padding: .6em 0 .9em;
         width: 44%;
     }
@@ -620,3 +628,331 @@ footer ul {
     }
 
 }
+
+
+@media (min-width: 736px) {
+    .wrapper {
+        padding: 2.5em;
+    }
+    .col-leftT {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .col-leftT h1 {
+        font-size: 1.4em;
+    }
+    .col-leftT p {
+        font-size: .8em;
+        max-width: 358px;
+    }
+    /****** end of hero-sec1 styles *****/
+
+    .hero-sec2 h1 {
+        font-size: 1.2em;
+    }
+    .hero-sec2 .landscape-p {
+        font-size: .7em;
+        max-width: 317px;
+    }
+    .col-rightM {
+        align-self: start;
+        margin-top: 13px;
+        max-width: 296px;
+    }
+    .sec3 {
+        padding
+    }
+    .sec3-form {
+        margin-left: auto;
+        width: 333px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 950px) {
+    .wrapper {
+        padding: 3.5em;
+    }
+}
+
+@media (min-width: 1000px) {
+    .wrapper {
+        padding-right: 4.5em;
+        padding-left: 4.5em;
+    }
+   .header-logo {
+       width: 7.5em;
+   }
+   .header-nav {
+       font-size: 1.2em;
+   }
+   /****** end of Header styles *****/
+
+   .col-rightT {
+       margin: 0;
+       margin-left: auto;
+       max-width: 440px;
+   }
+   .col-leftT {
+       margin-top: 3em;
+   }
+   .col-leftT h1 {
+       font-size: 1.7em;
+   }
+   .col-leftT p {
+       font-size: .9em;
+       max-width: 402px;
+   }
+   .header-form input[type=email] {
+       height: 2.1em;
+       padding: .1em 0 .5em 1.5em;
+   }
+   .header-form input[type=button] {
+       height: 2.8em;
+
+   }
+   /****** end of hero-sec1 styles *****/
+
+   .col-rightM {
+       margin: 0;
+       max-width: 440px;
+   }
+   .col-leftM {
+       max-width: 100%;
+   }
+   .hero-sec2 h1 {
+       font-size: 1.6em;
+       max-width: 100%;
+   }
+   .hero-sec2 .landscape-p {
+       font-size: .9em;
+       max-width: 370px;
+   }
+   .attention-statement {
+       width: 137px;
+   }
+   .attention-statement span {
+       font-size: .8em;
+   }
+   .arrow-img {
+       width: 14px;
+   }
+   .testimonial-card {
+        height: 8.2em;
+        margin: 0;
+        padding: .5em 1.5em;
+        width: 13em;
+   }
+   .testimonial-card img {
+       width: .8em;
+   }
+   .hero-sec2 .testimonial-statement {
+        font-size: 10px;
+        line-height: 18px;
+        margin-bottom: 13px
+   }
+   .avatar-img {
+        width: 22px;
+        height: 22px;
+   }
+   .hero-sec2 .avatar-name {
+       font-size: 9px;
+   }
+   .hero-sec2 .avatar-title {
+       font-size: .7px;
+   }
+   .col-rightM {
+        align-self: start;
+        margin-left: auto;
+        max-width: 396px;
+        margin-top: 18px;
+   }
+/****** end of hero-sec2 styles *****/
+
+    .sec3 h2 {
+        font-size: 1.4em;
+        padding-top: 1.2em;
+    }
+    .sec3 p {
+        font-size: .7em;
+        width: 32em;
+    }
+    .sec3 input[type=email] {
+        width: 78%;
+    }
+    .sec3 input[type=button] {
+        width: 36%;
+    }
+/****** end of sec3 styles *****/
+
+    .footer {
+        font-size: .9em;
+    }
+    .footer-contact li span {
+        width: 13px;
+    }
+    .page-links, .business-policy {
+        margin-top: 53px;
+    }
+    .smedia-links {
+        margin-top: 53px;
+    }
+/****** end of footer styles *****/
+
+}
+
+@media (min-width: 1244px) {
+
+    .header-logo {
+        width: 8.5em;
+    }
+
+    .col-leftT {
+        margin-top: 3em;
+        max-width: 100%;
+    }
+
+    .col-leftT h1 {
+        font-size: 2.5em;
+    }
+    
+    .col-leftT p {
+        font-size: 1.1em;
+        line-height: 2em;
+        max-width: 87%;
+    }
+
+    .header-form input[type=email] {
+        font-size: 14px;
+        height: 2.3em;
+    }
+
+    .header-form input[type=button] {
+        height: 3.8em;
+        width: 30%;
+    }
+
+    .col-rightT {
+        max-width: 100%;
+        margin: 0;
+    }
+/****** end of hero-sec1 styles *****/
+    .wrapper.hero-sec2 {
+        padding-top: 1.5em;
+        padding-bottom: 6em;
+    }
+
+    .col-rightM {
+        max-width: 84%;
+        margin-top: 28px;
+    }
+
+    .hero-sec2 h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-sec2 .landscape-p {
+        font-size: 1.1em;
+        max-width: 576px;
+    }
+    .attention-statement {
+        margin: 0 0 2.5em 0;
+        width: 169px;
+    }
+
+    .attention-statement span {
+        font-size: 1em;
+    }
+
+    .arrow-img {
+        width: 15px;
+        padding-left: 6px;
+    }
+
+    .testimonial-card {
+        height: 13.2em;
+        width: 21em;
+    }
+
+    .testimonial-card img {
+        margin-top: 11px;
+        margin-bottom: 6px;
+        width: .9em;
+    }
+
+    .hero-sec2 .testimonial-statement {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+    .avatar-img {
+        width: 34px;
+        height: 34px;
+    }
+    .hero-sec2 .avatar-name {
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 0;
+    }
+    .hero-sec2 .avatar-title {
+        font-size: 9.7px;
+    }
+
+
+    .sec3 h2 {
+        font-size: 2.3em;
+    }
+
+    .sec3 p {
+        font-size: 1.2em;
+    }
+
+    .colR-sec3 {
+        max-width: 100%;
+    }
+
+    .sec3-form {
+        width: 100%;
+    }
+
+    .sec3 input[type=email] {
+        width: 68%;
+        font-size: 1.2em;
+        height: 22px;
+        margin-left: 6.6em;
+        margin-top: 58px;
+    }
+
+    .sec3 input[type=button] {
+        font-size: 1em;
+        padding: .9em 0 1em;
+        width: 33%;
+        margin-left: 7.9em;
+    }
+
+    .footer {
+        font-size: 1.2em;
+    }
+    
+    .footer-logo {
+        width: 9em;
+        margin-top: 1em;
+    }
+
+    .footer-contact li span {
+        width: 13px;
+    }
+    .page-links, .business-policy {
+        margin-top: 95px;
+    }
+    .smedia-links {
+        margin-top: 95px;
+    }
+    .smedia-links svg {
+        width: 33px;
+    }
+
+}
+
+
+
