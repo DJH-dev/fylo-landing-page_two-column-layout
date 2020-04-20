@@ -146,7 +146,7 @@ nav {
     display: flex;
     margin: 2em auto 0;
     padding-bottom: 4px;
-    width: 132px;
+    width: 136px;
 }
 .attention-statement span {
     color: hsl(170, 45%, 55%);
@@ -233,10 +233,6 @@ nav {
 }
 .sec3 input {
     border-radius: 2px;
-    -webkit-border-top-left-radius:2px;
-	-webkit-border-top-right-radius:2px;
-	-webkit-border-bottom-right-radius:2px;
-	-webkit-border-bottom-left-radius:2px;
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -250,7 +246,6 @@ nav {
 }
 .sec3 input[type=button] {
     border-style: none;
-
     color: hsl(0, 0%, 95%);
     background-color: var(--button-color);
     background-color: hsl(224, 93%, 58%);
