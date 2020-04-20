@@ -506,7 +506,7 @@ footer ul {
     .attention-statement {
         margin: 0 0 1.5em 0;
         padding-bottom: 1px;
-        width: 98px;
+        width: max-content;
     }
 
     .attention-statement span {
@@ -742,7 +742,7 @@ footer ul {
        max-width: 370px;
    }
    .attention-statement {
-       width: 137px;
+       width: max-content;
    }
    .attention-statement span {
        font-size: .8em;
@@ -870,7 +870,7 @@ footer ul {
     }
     .attention-statement {
         margin: 0 0 2.5em 0;
-        width: 169px;
+        width: max-content;
     }
 
     .attention-statement span {
