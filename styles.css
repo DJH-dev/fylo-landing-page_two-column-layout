@@ -120,9 +120,9 @@ nav {
     width: 90%;
 }
 
-input[type=button]:hover{cursor: pointer;}
-
-
+.header-form input[type=button]:hover {
+    cursor: pointer;
+}
 
 
 /****** end of hero-sec1 styles *****/
