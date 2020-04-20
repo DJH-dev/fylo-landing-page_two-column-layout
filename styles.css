@@ -30,6 +30,11 @@ ul {
 li {
     list-style: none;
 }
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:hsl(0, 0%, 75%);
     font-size: .9 basem;
