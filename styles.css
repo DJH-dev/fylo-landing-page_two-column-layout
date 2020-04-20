@@ -13,7 +13,6 @@ body {
 }
 .wrapper {
     padding: 1.5em;
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 .header-logo {
     width: 5.5em;
