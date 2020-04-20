@@ -248,7 +248,7 @@ nav {
 
     color: hsl(0, 0%, 95%);
     background-color: var(--button-color);
-    backgourn-color: hsl(224, 93%, 58%);
+    background-color: hsl(224, 93%, 58%);
     font-size: .68em;
     padding: .7em 0 1em;
     width: 82%;
